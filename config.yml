@@ -78,18 +78,17 @@ links:
       title: "Instagram"
       target: "_blank"
 
-# -----------------------------------------------------------------------------
-# Social media buttons
-# -----------------------------------------------------------------------------
-socials:
-  - social:
+  - link:
       icon: "fa-solid fa-envelope"
+      text: "Email"
       url: "mailto:info@amigoslondon.uk"
-      title: "Email: info@amigoslondon.uk"
-      alt: "info@amigoslondon.uk"
+      alt: "Email"
+      title: "Email"
       target: "_blank"
 
-footer:
+footer: >
+  Join our WhatsApp community as well when you come to our weekly language exchange where we share
+  other language events and Hispanic cultural and culinary events!
 
 # Footer copyright message
 copyright:

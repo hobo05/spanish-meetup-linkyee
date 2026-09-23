@@ -84,9 +84,9 @@ links:
 socials:
   - social:
       icon: "fa-solid fa-envelope"
-      url: "mailto:info@amigos.london"
-      title: "Email: info@amigos.london"
-      alt: "info@amigos.london"
+      url: "mailto:info@amigoslondon.uk"
+      title: "Email: info@amigoslondon.uk"
+      alt: "info@amigoslondon.uk"
       target: "_blank"
 
 footer:

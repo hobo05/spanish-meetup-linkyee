@@ -40,7 +40,10 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.4.2
+          # Float the patch version: ruby-builder only publishes the latest
+          # patch of each series for current runner images, so a pinned patch
+          # (e.g. 3.4.2) 404s once ubuntu-latest rolls over (26.04).
+          ruby-version: '3.4'
           bundler-cache: true
 
       - name: Deploy
